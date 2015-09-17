@@ -1,0 +1,32 @@
+package main
+
+import (
+	"fmt"
+	//"os"
+)
+
+func main() {
+	test_str := "hello, world\n"
+
+	max := 10
+	for i := 0; i < max; i++ {
+		fmt.Printf(test_str)
+	}
+
+	// n, err := fmt.Printf(test_str)
+
+	// switch {
+	// case err != nil:
+	// 	os.Exit(1)
+	// case n == 0:
+	// 	fmt.Printf("No bytes output\n")
+	// case n != len(test_str):
+	// 	fmt.Printf("Wrong number of characters")
+	// default:
+	// 	fmt.Printf("ok\n")
+	// }
+
+	// } else {
+	// 	fmt.Printf("Printed %d bytes\n", n)
+	// }
+}
